@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.cell{
+    height: 75px;
+    width: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gamecontainer{
+    text-align: center;
+    
+}
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 22px;
+    margin: auto;
+}
+#restartbtn{
+    height: 40px;
+    background-color: rgba(145, 242, 0, 0.947);
+    color:black;
+    font-weight: bold;
+    border-radius: 20px;
+}
